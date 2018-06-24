@@ -2,7 +2,8 @@
 function shout(string) {
   return string.toUpperCase();
 }
-describe('whisper(string)', function() {
+
+describe('whisper(string)', function whisper(string) {
   it('receives one argument and returns it in all lowercase', function() {
     expect(whisper('HELLO')).toEqual('hello')
   })
