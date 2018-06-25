@@ -24,6 +24,6 @@ function logWhisper(string) {
   return "YES INDEED!"
   }
 
-  if (string)
+  if (string===)
   })
 })
