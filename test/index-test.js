@@ -11,14 +11,6 @@ function logShout(string) {
   console.log(string.toUpperCase());
 }
 
-    logShout('hello')
-
-    expect(spy).toHaveBeenCalledWith('HELLO')
-
-    console.log.restore()
-  })
-})
-
 describe('logWhisper(string)', function() {
   it('calls console.log() its one argument in all lowercase', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
