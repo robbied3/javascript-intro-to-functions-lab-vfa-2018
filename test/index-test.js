@@ -27,6 +27,6 @@ function logWhisper(string) {
   return "I love you, too.";
   }
   
-return "Are you eating enough?" 
+return "Are you eating enough?"  
   }
   
