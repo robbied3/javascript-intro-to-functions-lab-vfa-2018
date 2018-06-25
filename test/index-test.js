@@ -8,8 +8,8 @@ function whisper(string) {
 }
 
 describe('logShout(string)', function logShout(string) {
-  console.log function() {
-    const spy = expect.spyOn(console, 'log').andCallThrough()
+  console.log(string.toUpperCase());
+}
 
     logShout('hello')
 
